@@ -11,25 +11,26 @@
       <a href="./index.html">Go to home</a>
       <h1>Snackbar</h1>
     </section>
+
     <form class="form">
-      <label>
+      <label class="delay-label">
         Delay (ms)
-        <input type="number" name="delay" required />
+        <input type="number" name="delay" class="delay-input" required />
       </label>
     
       <fieldset>
-        <legend>State</legend>
-        <label>
-          <input type="radio" name="state" value="fulfilled" required />
+        <legend class="state">State</legend>
+        <label class="input-label">
+          <input class="input" type="radio" name="state" value="fulfilled" required />
           Fulfilled
         </label>
-        <label>
-          <input type="radio" name="state" value="rejected" required />
+        <label class="input-label">
+          <input class="input" type="radio" name="state" value="rejected" required />
           Rejected
         </label>
       </fieldset>
     
-      <button type="submit">Create notification</button>
+      <button class="submit-btn" type="submit">Create notification</button>
     </form>
 
 
